@@ -12,6 +12,9 @@ module.exports = {
   ],
   devServer: {
     static: './dist',
+    hot: true,
+    watchFiles: ['./src/*'],
+    open: true,
   },
   output: {
     filename: '[name].js',
